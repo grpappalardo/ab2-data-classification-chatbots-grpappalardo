@@ -38,7 +38,7 @@ if name_prompt == 'El':
 else:
     print('Hello', name_prompt, '!')
 # prompt user for a number, which will be squared
-prompt_exp = input('I can do math. Tell me a number.')
+prompt_exp = input('I can do math. Tell me a whole number.')
 # perform exponentiation on the number
 square = int(prompt_exp) ** 2
 # print the square of the number to user
